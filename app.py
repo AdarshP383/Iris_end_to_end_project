@@ -31,7 +31,7 @@ def predict_data(sep_len, sep_wid, pet_len, pet_wid):
 # Run streamlit app
 if __name__ == "__main__":
     st.set_page_config(page_title="Iris Project by Adarsh")
-    st.title("Iris Project - Adarsh Pawar")
+    st.title("Iris Project by Adarsh Pawar")
     st.subheader("Please provide below inputs")
     # Take input from user
     sep_len = st.number_input("Sepal Length : ", min_value=0.00, step=0.01)
